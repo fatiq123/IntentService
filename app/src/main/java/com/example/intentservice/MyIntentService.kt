@@ -22,7 +22,7 @@ class MyIntentService: IntentService("MyIntentService") {
     }
 
     @Deprecated("Deprecated in Java")
-    override fun onHandleIntent(intent: Intent?) {
+    override fun onHandleIntent(intent: Intent?) {  // automatically generated when we inherit class from IntentService
         try {
             isRunning = true
             while (isRunning){
